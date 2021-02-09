@@ -5,12 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hungry-Monstar</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7fa44b4fbb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <ul id="meals">
-        
-    </ul>
+    <div class="container">
+        <h1>Meal Finding</h1>
+       
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search for you like">
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+           <!-- <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
 
+            </button> -->
+
+        </div>
+        <div class="result-heading"></div>
+        <div id="meal" class="meals"></div>
+        <div id="single-meal"></div>
+        
+    </div>
 
 <script src="api.js"></script>
 </body>
