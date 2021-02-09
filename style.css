@@ -52,6 +52,13 @@ input,button{
 }
 .meal-info{
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -83,4 +90,32 @@ input,button{
 }
 .single-meal ul li{
     display: inline-block;
+    font-size: 12px;
+    padding: 5px; 
+    border: 1px silver solid;
+    background-color: snow;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin: 5px ;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  float: right;
+  
+    }
+ul li{
+    display: inline;
+   
+    padding: 20px;    
+}  
+nav{
+    height: 80px;
+    margin-top: 30px;
+}
+nav img{
+    margin-left: 200px;
+    width:70px;
 }

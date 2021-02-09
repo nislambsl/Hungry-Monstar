@@ -8,27 +8,39 @@
     <script src="https://kit.fontawesome.com/7fa44b4fbb.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav>
+        <img src="hungry-logo.png"> 
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Recipe</li>
+            <Li>Blog</Li>
+        </ul>
+    </nav>
     <div class="container">
         <h1>Meal Finding</h1>
        
         <div class="flex">
+            
             <form class="flex" id="submit">
                 <input type="text" id="search" placeholder="Search for you like">
                 <button class="search-btn" type="submit">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
-           <!-- <button class="random-btn" id="random">
-                <i class="fas fa-random"></i>
+         
+            </button> 
+           
+            
 
-            </button> -->
-
+    
         </div>
         <div class="result-heading"></div>
         <div id="meal" class="meals"></div>
         <div id="single-meal"></div>
         
     </div>
+  
 
 <script src="api.js"></script>
 </body>

@@ -1,6 +1,5 @@
 const search = document.getElementById("search");
 const submit = document.getElementById("submit");
-// const random = document.getElementById("random")
 const mealEl = document.getElementById("meal");
 const resultHeading = document.getElementsByClassName("result-heading");
 const single_mealEl = document.getElementById("single-meal");
@@ -52,7 +51,7 @@ function getMealById(mealID){
 
 function addMealToDOM(meal) {
     const ingredients = [];
-    for(let i =1; i<=20; i++) {
+    for(let i =1-0; i<=20; i++) {
         if(meal[`strIngredient${i}`]) {
             ingredients.push(`
             ${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}
